@@ -115,14 +115,16 @@ dengan Printah Dibawah ini
                 </React.StrictMode>
         );
 3. Sekarang Anda dapat menggunakan React Router di mana saja
-## <BrowserRouter>
-        <BrowserRouter>adalah antarmuka yang direkomendasikan untuk menjalankan React Router di browser web. A <BrowserRouter>menyimpan lokasi saat ini di bilah alamat browser menggunakan URL bersih dan bernavigasi menggunakan tumpukan riwayat bawaan browser.
 
-## HeshRouter
-        <HashRouter>adalah untuk digunakan di browser web ketika URL tidak boleh (atau tidak dapat) dikirim ke server karena alasan tertentu. Ini mungkin terjadi di beberapa skenario hosting bersama di mana Anda tidak memiliki kontrol penuh atas server. Dalam situasi ini, <HashRouter> memungkinkan untuk menyimpan lokasi saat ini di hashbagian URL saat ini, sehingga tidak pernah dikirim ke server.
+## `<BrowserRouter>`
+<BrowserRouter>adalah antarmuka yang direkomendasikan untuk menjalankan React Router di browser web. A <BrowserRouter>menyimpan lokasi saat ini di bilah alamat browser menggunakan URL bersih dan bernavigasi menggunakan tumpukan riwayat bawaan browser.
 
-## <MemoryRouter>
-        menyimpan lokasinya secara internal dalam array. Tidak seperti <BrowserHistory>dan <HashHistory>, itu tidak terikat ke sumber eksternal, seperti tumpukan riwayat di browser. Ini membuatnya ideal untuk skenario di mana Anda memerlukan kontrol penuh atas tumpukan riwayat, seperti pengujian.
+## `HeshRouter`
+<HashRouter>adalah untuk digunakan di browser web ketika URL tidak boleh (atau tidak dapat) dikirim ke server karena alasan tertentu. Ini mungkin terjadi di beberapa skenario hosting bersama di mana Anda tidak memiliki kontrol penuh atas server. Dalam situasi ini, <HashRouter> memungkinkan untuk menyimpan lokasi saat ini di hashbagian URL saat ini, sehingga tidak pernah dikirim ke server.
+
+
+## `<MemoryRouter>`
+menyimpan lokasinya secara internal dalam array. Tidak seperti <BrowserHistory>dan <HashHistory>, itu tidak terikat ke sumber eksternal, seperti tumpukan riwayat di browser. Ini membuatnya ideal untuk skenario di mana Anda memerlukan kontrol penuh atas tumpukan riwayat, seperti pengujian.
 
 # 24 Agustus 2022 (Redux)
 adalah salah satu labrary state manajemen dalam arti state manajemen adalah proses mengelolah suatu informasi atau data dari berbagai data dari suatu aplikasi
